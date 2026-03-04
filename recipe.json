@@ -1,0 +1,92 @@
+{
+  "name": "neurofamily",
+  "displayName": "NeuroFamily Support Ecosystem",
+  "description": "A multi-agent AI support system for families with neurodiverse children. 12 specialized agents including Family Navigator, Education Advocate, Emotional Coach, and more.",
+  "version": "1.4.0",
+  "author": "Brendan O'Keefe",
+  "tags": [
+    "family",
+    "support",
+    "autism",
+    "adhd",
+    "neurodiversity",
+    "parenting",
+    "education",
+    "sensory",
+    "mental-health"
+  ],
+  "install": {
+    "command": "git clone https://github.com/boktoday/neurofamily-support-ecosystem.git ~/.openclaw/agents/neurofamily",
+    "requiresRestart": true
+  },
+  "agents": [
+    {
+      "id": "family-navigator",
+      "name": "Family Navigator",
+      "description": "Coordinator, triage, family profile manager"
+    },
+    {
+      "id": "education-advocate",
+      "name": "Education Advocate",
+      "description": "IEP, school, EHCP, 504 support"
+    },
+    {
+      "id": "routine-architect",
+      "name": "Routine Architect",
+      "description": "Visual schedules, transitions"
+    },
+    {
+      "id": "emotional-coach",
+      "name": "Emotional Coach",
+      "description": "Meltdowns, anxiety, regulation"
+    },
+    {
+      "id": "parent-companion",
+      "name": "Parent Companion",
+      "description": "Caregiver burnout, wellbeing"
+    },
+    {
+      "id": "sensory-guide",
+      "name": "Sensory Guide",
+      "description": "Sensory processing, OT"
+    },
+    {
+      "id": "communication-specialist",
+      "name": "Communication Specialist",
+      "description": "AAC, social scripts"
+    },
+    {
+      "id": "behaviour-advisor",
+      "name": "Behaviour Advisor",
+      "description": "PBS, behaviour patterns"
+    },
+    {
+      "id": "sibling-support",
+      "name": "Sibling Support",
+      "description": "Sibling needs, family dynamics"
+    },
+    {
+      "id": "teen-coach",
+      "name": "Teen Coach",
+      "description": "Independence, transitions"
+    },
+    {
+      "id": "food-coach",
+      "name": "Food Support Coach",
+      "description": "ARFID, safe foods"
+    },
+    {
+      "id": "artifacts-generator",
+      "name": "Artifacts Generator",
+      "description": "Tools, dashboards, trackers"
+    }
+  ],
+  "features": [
+    "Shared context between agents",
+    "Regional support (AU, UK, US)",
+    "Profile builder onboarding",
+    "Visual schedule generator",
+    "Mood/food/sleep trackers",
+    "IEP goal trackers"
+  ]
+}
